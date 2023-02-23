@@ -10,6 +10,14 @@ const Login = () => {
   const handleRegisterClick = () => {
     navigate(`/createUsers/}`);
   };
+import imagen from "../assets/img/undraw_secure_login_pdn4.png"
+import LoginUsuarios from './LoginUsuarios'
+
+
+const Login = (  ) => {
+
+
+
   return (
     <div className='login'>
         <div className='registroUsuario'>
@@ -21,6 +29,8 @@ const Login = () => {
                 <input className='inpform'  type="number"  id="" placeholder='ingrese su cedula' />
                 <input className='inpform'  type="number"  id="" placeholder='contraseña' />
                 <button onClick={handleRegisterClick} className='btnRegistrar'>registrarse</button>
+                 
+                <button  className='btnRegistrar'>registrarse</button>
 
             </form>
 

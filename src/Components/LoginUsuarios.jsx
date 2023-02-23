@@ -1,19 +1,22 @@
 import React from 'react'
 import "../CSS/Login.css"
-import imagen from "../img/undraw_secure_login_pdn4.png"
+import imagen from "../assets/img/undraw_secure_login_pdn4.png"
+import Login from './Login'
 
-const Login = (  ) => {
+const LoginUsuarios = (  ) => {
   return (
     <div className='login'>
 
         <div className='registroUsuario'>
             
-            <h2>bienbenidos</h2>
+            <h2 className='tituloInicaeSesion'>inicie sesion </h2>
+
             <form action="#" className='formulario'>
                 <input className='inpform'  type="number"  id="" placeholder='ingrese su cedula' />
                 <input className='inpform'  type="number"  id="" placeholder='contraseña' />
-                <button className='btnRegistrar'>registrarse</button>
+                <button className='btnRegistrar btnIniciarSesion'>iniciar sesion </button>
 
+                <a className='crearUsuario' href={<Login/>}>crear  usuario</a>
             </form>
 
         </div>
@@ -25,4 +28,4 @@ const Login = (  ) => {
   )
 }
 
-export default Login
+export default LoginUsuarios
