@@ -1,8 +1,15 @@
 import React from 'react'
+import { useNavigate } from "react-router";
 import "../CSS/Login.css"
 import imagen from "../assets/img/undraw_secure_login_pdn4.png"
 
 export const LoginUsuarios = () => {
+  
+  const navigate = useNavigate();
+
+  const handleRegisterClick = () => {
+    navigate(`/createUsers/`);
+  };
   return (
     <div className='login'>
 
@@ -15,7 +22,7 @@ export const LoginUsuarios = () => {
                 <input className='inpform'  type="number"  id="" placeholder='contraseña' />
                 <button className='btnRegistrar btnIniciarSesion'>iniciar sesion </button>
 
-                <a className='crearUsuario'>crear  usuario</a>
+                <a className='crearUsuario' onClick={handleRegisterClick}>crear  usuario</a>
             </form>
 
         </div>
