@@ -1,9 +1,8 @@
 import React from 'react'
 import "../CSS/Login.css"
 import imagen from "../assets/img/undraw_secure_login_pdn4.png"
-import Login from './Login'
 
-const LoginUsuarios = (  ) => {
+export const LoginUsuarios = () => {
   return (
     <div className='login'>
 
@@ -16,7 +15,7 @@ const LoginUsuarios = (  ) => {
                 <input className='inpform'  type="number"  id="" placeholder='contraseña' />
                 <button className='btnRegistrar btnIniciarSesion'>iniciar sesion </button>
 
-                <a className='crearUsuario' href={<Login/>}>crear  usuario</a>
+                <a className='crearUsuario'>crear  usuario</a>
             </form>
 
         </div>
@@ -27,5 +26,3 @@ const LoginUsuarios = (  ) => {
     </div>
   )
 }
-
-export default LoginUsuarios

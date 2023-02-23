@@ -1,20 +1,17 @@
-
-import Login from './Components/Login'
-import './App.css'
 import { createBrowserRouter, Routes, Route } from "react-router-dom";
 import React from 'react'
-
-import { NotFount, Login, LoginUsuarios } from "../pages";
+import { NotFount, Login, LoginUsuarios } from "../Components";
+import '../App.css'
 
 export const AppRouter = createBrowserRouter([
   {
     path: "/",
-    element: <Login />,
+    element: <LoginUsuarios />,
     errorElement: <NotFount />
   },
   {
     path: "/createUsers/",
-    element: <LoginUsuarios />,
+    element: <Login />,
     errorElement: <NotFount />
   }
 ]);
