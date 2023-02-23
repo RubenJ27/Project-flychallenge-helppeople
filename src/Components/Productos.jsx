@@ -39,17 +39,18 @@ const Productos = () => {
           </div>
           
           <div className='contador'>
-          <p>{contador}</p>
-          <div>
             <button onClick={disminuir} > <MinusIcon class="h-6 w-6 text-gray-500" /></button>
+            <p>{contador}</p>
             <button onClick={aumentar} > <PlusSmallIcon class="h-6 w-6 text-gray-500" /></button>
-            </div>
+           
           </div>
           </div>
           
           <button className='btnComprar'>comprar</button>
         </div>
 
+
+        
       </div>
     </div>
   )

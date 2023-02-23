@@ -8,10 +8,12 @@ const ContenedorEcomers = () => {
   return (
     <div className='ContenedorEcomers'>
       <Menu/>
-      
+
       <div className='main'>
-    <Asaid/>
+    <Asaid />
+
     <Productos/>
+    
     
       </div>
     </div>

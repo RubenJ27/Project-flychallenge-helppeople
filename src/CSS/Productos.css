@@ -1,7 +1,10 @@
 .Productos{
     background-color:#D6E9E5 ;
+    
 
 }
+
+
 
 .portada{
     display: flex;
@@ -20,9 +23,12 @@ margin-top: 10px;
 }
 .contenedorProductos{
     width: 1060px;
-    display: flex;
+    display: grid;
     align-items: center;
     flex-wrap: wrap;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    margin-bottom: 14px;
 }
 
 .targetas{
@@ -58,7 +64,7 @@ margin-top: 10px;
 
 .contador{
     display: flex;
-    flex-direction: column;
+    grid-area: 14px;
     align-items: center;
     background-color:#D6E9E5;
     padding: 4px;
