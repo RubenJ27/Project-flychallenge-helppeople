@@ -1,0 +1,7 @@
+
+
+.imagenTex{
+    height: 340px;
+   overflow: hidden;
+    object-fit: cover;
+}
