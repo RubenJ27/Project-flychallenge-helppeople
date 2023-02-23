@@ -1,5 +1,6 @@
-
+import LoginUsuarios from './Components/LoginUsuarios'
 import Login from './Components/Login'
+
 import './App.css'
 
 function App() {
@@ -7,9 +8,7 @@ function App() {
 
   return (
     <div className="contenedor">
-      <Login/>
-
-     
+      <LoginUsuarios/> 
     </div>
   )
 }
