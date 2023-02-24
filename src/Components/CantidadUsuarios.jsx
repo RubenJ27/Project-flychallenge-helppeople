@@ -5,7 +5,13 @@ const CantidadUsuarios = () => {
   return (
 
     <div  className='CANTIDADusuarios'>
-      <p>usuarios</p>
+      <form action="#" className='formularioCANTIDADusuarios'>
+                <input className='inpformCANTIDADusuarios' type="text" placeholder='Ingrese su nombre y apellido' />
+                <input className='inpformCANTIDADusuarios'  type="number"  id="" placeholder='Numero celular' />
+                <input className='inpformCANTIDADusuarios'  type="number"  id="" placeholder='Ingrese su cedula' />
+                <input className='inpformCANTIDADusuarios'  type="number"  id="" placeholder='Contraseña' />
+                <button className='btnCANTIDADusuarios' >Agregar usuario</button>
+            </form>
     </div>
   )
 }

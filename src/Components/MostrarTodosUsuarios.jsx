@@ -6,12 +6,29 @@ const MostrarTodosUsuarios = () => {
   return (
     <div className='ContenedorMostrarTodosUsuarios'>
 
-        <div className='estructuraUsuarios'>
-            <img className='PerfilestructuraUsuarios' src={imagenUsuario} alt="" />
-            <p>bruno mars</p>
-            <p>12356378</p>
-            <p>3216826377</p>
-        </div>
+       
+<div className="table-wrapper">
+    <table className="fl-table">
+        <thead>
+        <tr>
+            <th>nombre y apellido</th>
+            <th>cedula</th>
+            <th>celular 3</th>
+            
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>bruno mars</td>
+            <td>12456644</td>
+            <td>4564433</td>
+           
+        </tr>
+       
+        </tbody>
+    </table>
+</div>
+
 
         
 
