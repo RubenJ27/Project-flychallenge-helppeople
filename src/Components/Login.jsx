@@ -1,16 +1,9 @@
 
 import React from "react";
-import { useNavigate } from "react-router";
 import imagen from "../assets/img/undraw_secure_login_pdn4.png"
 import "../CSS/Login.css"
 
 export const Login = () => {
-
-  const navigate = useNavigate();
-
-  const handleRegisterClick = () => {
-    navigate(`/createUsers/}`);
-  };
 
   return (
     <div className='login'>
@@ -23,6 +16,7 @@ export const Login = () => {
                 <input className='inpform'  type="number"  id="" placeholder='Ingrese su cedula' />
                 <input className='inpform'  type="number"  id="" placeholder='Contraseña' />
                 <button onClick={handleRegisterClick} className='btnRegistrar'>registrarse</button>
+
                  
                 <button  className='btnRegistrar'>registrarse</button>
 
