@@ -12,8 +12,9 @@ export const LoginUsuarios = () => {
     navigate(`/createUsers/`);
   };
   return (
-    // <div className='login'>
-
+    <>
+   <div className='login'>
+ {/* // 
     //     <div className='registroUsuario'>
             
     //         <h2 className='tituloInicaeSesion'>inicie sesion </h2>
@@ -32,10 +33,13 @@ export const LoginUsuarios = () => {
 
     //     </div>
     // </div>
-    <div>
+    <div> */}
+  
         {/* <ContenedorEcomers/> */}
         <AdministradorDasboard/>
 
     </div>
+    </>
   )
+
 }
