@@ -12,30 +12,34 @@ export const LoginUsuarios = () => {
     navigate(`/createUsers/`);
   };
   return (
-    // <div className='login'>
+  /* 
+   <div className='login'>
 
-    //     <div className='registroUsuario'>
+       <div className='registroUsuario'>
             
-    //         <h2 className='tituloInicaeSesion'>inicie sesion </h2>
+          <h2 className='tituloInicaeSesion'>inicie sesion </h2>
 
-    //         <form action="#" className='formulario'>
-    //             <input className='inpform'  type="number"  id="" placeholder='ingrese su cedula' />
-    //             <input className='inpform'  type="number"  id="" placeholder='contraseña' />
-    //             <button className='btnRegistrar btnIniciarSesion'>iniciar sesion </button>
+          <form action="#" className='formulario'>
+              <input className='inpform'  type="number"  id="" placeholder='ingrese su cedula' />
+           <input className='inpform'  type="number"  id="" placeholder='contraseña' />
+               <button className='btnRegistrar btnIniciarSesion'>iniciar sesion </button>
 
                 <a className='crearUsuario' onClick={handleRegisterClick}>crear  usuario</a>
-            </form>
+  /          </form>
 
-    //     </div>
-    //     <div className='imagenForm'>
-    //         <img className='imagenLogin' src={imagen} alt="" />
+       </div>
+       <div className='imagenForm'>
+           <img className='imagenLogin' src={imagen} alt="" />
 
-    //     </div>
-    // </div>
-    <div>
-        {/* <ContenedorEcomers/> */}
-        <AdministradorDasboard/>
+       </div>
+   </div>
+     <div>
+         { <ContenedorEcomers/> }
+         
 
-    </div>
+     </div>
+    */
+
+   <AdministradorDasboard/>
   )
 }
