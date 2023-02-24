@@ -11,19 +11,23 @@ const MostrarTodosUsuarios = () => {
     <table className="fl-table">
         <thead>
         <tr>
-            <th>nombre y apellido</th>
-            <th>cedula</th>
-            <th>celular 3</th>
+            <th>Nombre </th>
+            <th> Apellidos</th>
+            <th>Cedula</th>
+            <th>Celular 3</th>
             
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td>bruno mars</td>
+            <td>bruno </td>
+            <td>mars</td>
             <td>12456644</td>
             <td>4564433</td>
            
         </tr>
+
+        
        
         </tbody>
     </table>
