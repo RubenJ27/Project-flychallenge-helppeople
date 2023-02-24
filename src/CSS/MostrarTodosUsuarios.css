@@ -1,0 +1,33 @@
+.ContenedorMostrarTodosUsuarios{
+    margin-top: 20px;
+    margin-left: 14px;
+    background-color: #F5F1F1;
+    width: 94%;
+    min-height: 300px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.estructuraUsuarios{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    
+   
+}
+
+.PerfilestructuraUsuarios{
+    width: 60px;
+    border-radius: 100%;
+    padding: 8px 0;
+  
+}
