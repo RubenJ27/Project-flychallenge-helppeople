@@ -9,12 +9,14 @@ export const Login = () => {
     <div className='login'>
         <div className='registroUsuario'>
             
-            <h2 className='tituloLogin'>bienbenidos</h2>
+            <h2 className='tituloLogin'>Bienbenidos</h2>
             <form action="#" className='formulario'>
-                <input className='inpform' type="text" placeholder='ingrese su nombre y apellido' />
-                <input className='inpform'  type="number"  id="" placeholder='numero celular' />
-                <input className='inpform'  type="number"  id="" placeholder='ingrese su cedula' />
-                <input className='inpform'  type="number"  id="" placeholder='contraseña' />
+                <input className='inpform' type="text" placeholder='Ingrese su nombre y apellido' />
+                <input className='inpform'  type="number"  id="" placeholder='Numero celular' />
+                <input className='inpform'  type="number"  id="" placeholder='Ingrese su cedula' />
+                <input className='inpform'  type="number"  id="" placeholder='Contraseña' />
+                <button onClick={handleRegisterClick} className='btnRegistrar'>registrarse</button>
+
                  
                 <button  className='btnRegistrar'>registrarse</button>
 
