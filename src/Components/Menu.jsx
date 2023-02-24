@@ -10,7 +10,7 @@ const Menu = () => {
     <div className='contenedorMenu'>
         <img className='logoEmpresa' src={logoEmpresa} alt="logo empresa" />
         <div className='cont-carritoCompras'>
-        <a href=" " class="h-6 w-6 text-gray-500 ">{<ShoppingCartIcon  />} </a>
+        <a href="" className="h-6 w-6 text-gray-500 ">{<ShoppingCartIcon  />} </a>
 
             <a href=""> <img className='perfilUsuario' src={perfil} alt="imagenUsuario" /> </a>
     

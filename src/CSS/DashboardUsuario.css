@@ -1,0 +1,17 @@
+.mainDashboardUsuario{
+    display: grid;
+    grid-template-columns: 1fr, 4fr;
+}
+
+s
+.mainDashboard{
+    position: relative;
+    
+    width: 184px;
+
+}
+.iconoLupa{
+    position: absolute;
+    top: 0;
+    right: 2px;
+}

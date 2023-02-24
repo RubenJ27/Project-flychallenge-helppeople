@@ -2,6 +2,7 @@ import React from 'react'
 import "../CSS/Login.css"
 import imagen from "../assets/img/undraw_secure_login_pdn4.png"
 import ContenedorEcomers from './ContenedorEcomers'
+import AdministradorDasboard from './AdministradorDasboard'
 export const LoginUsuarios = () => {
   return (
     // <div className='login'>
@@ -25,7 +26,8 @@ export const LoginUsuarios = () => {
     //     </div>
     // </div>
     <div>
-        <ContenedorEcomers/>
+        {/* <ContenedorEcomers/> */}
+        <AdministradorDasboard/>
 
     </div>
   )

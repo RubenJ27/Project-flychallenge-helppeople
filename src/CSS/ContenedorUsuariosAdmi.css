@@ -1,0 +1,44 @@
+.contenedorUsuario{
+    background-color: #007254;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.usuario, .usuarioProducto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.buscador{
+    position: relative;
+    width: 350px;
+    margin-top: 40px;
+    margin :50px auto;
+}
+
+
+.usuario--li{
+    background-color: white;
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+}
+.imputBuscar{
+    width: 360px;
+    border-radius: 20px;
+    height: 36px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.iconoBuscar{
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+
+
