@@ -1,0 +1,38 @@
+.contenedorMenu{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #0EA07A;
+    flex-wrap: wrap;
+    height: 50px;
+    
+
+}
+
+.cont-carritoCompras{
+    display: flex;
+    height: 100%;
+    width: 150px;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.perfilUsuario{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.logoEmpresa{
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 100vw;
+    padding: 5px;
+}

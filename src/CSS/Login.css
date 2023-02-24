@@ -37,7 +37,7 @@
     width: 290px;
     height: 50px;
     padding: 5px;
-    text-transform: capitalize;
+    
     border-radius: 5px;
 }
 .imagenForm{
@@ -59,7 +59,6 @@
     margin: auto;
     border-radius: 5px;
     font-weight: 700;
-    text-transform: capitalize;
     color: white;
 
 }
@@ -72,12 +71,10 @@
     position: absolute;
     bottom: -165px;
     left: -55px;
-
     margin:  55px auto;
     text-align: center;
     color: black;
     font-weight: 500;
-    text-transform:capitalize;
     border-radius: 8px;
     padding-top: 4px;
     text-decoration: underline;
@@ -91,6 +88,6 @@
 }
 
 .tituloInicaeSesion{
-    text-transform: capitalize;
+
     margin-bottom: 18px;
 }
