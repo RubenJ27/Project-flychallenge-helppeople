@@ -1,8 +1,9 @@
-/* 
+
 import LoginUsuarios from './Components/LoginUsuarios'
 import Login from './Components/Login'
 
 import './App.css'
+import './index.css'
 
 function App() {
   
@@ -14,4 +15,4 @@ function App() {
   )
 }
 
-export default App */
+export default App
