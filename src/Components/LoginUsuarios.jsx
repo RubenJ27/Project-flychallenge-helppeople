@@ -12,17 +12,10 @@ export const LoginUsuarios = () => {
     navigate(`/createUsers/`);
   };
   return (
-<<<<<<< HEAD
   /* 
    <div className='login'>
 
        <div className='registroUsuario'>
-=======
-    <>
-   <div className='login'>
- {/* // 
-    //     <div className='registroUsuario'>
->>>>>>> cfabc144e74889050ab4fd821d9eb285f9f08d46
             
           <h2 className='tituloInicaeSesion'>inicie sesion </h2>
 
@@ -38,7 +31,6 @@ export const LoginUsuarios = () => {
        <div className='imagenForm'>
            <img className='imagenLogin' src={imagen} alt="" />
 
-<<<<<<< HEAD
        </div>
    </div>
      <div>
@@ -49,17 +41,6 @@ export const LoginUsuarios = () => {
     */
 
    <AdministradorDasboard/>
-=======
-    //     </div>
-    // </div>
-    <div> */}
-  
-        {/* <ContenedorEcomers/> */}
-        <AdministradorDasboard/>
-
-    </div>
-    </>
->>>>>>> cfabc144e74889050ab4fd821d9eb285f9f08d46
   )
 
 }
