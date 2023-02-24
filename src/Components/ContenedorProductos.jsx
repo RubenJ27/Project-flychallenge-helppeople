@@ -1,7 +1,7 @@
 import React from 'react'
 import CantidadUsuarios from './CantidadUsuarios'
 import "../CSS/ContenedorUsuariosAdmi.css" 
-
+import MostrarTodosUsuarios from './MostrarTodosUsuarios'
 const ContenedorProductos = () => {
   return (
     <>
@@ -16,6 +16,8 @@ const ContenedorProductos = () => {
         </div>
 
         <CantidadUsuarios/>
+
+        <MostrarTodosUsuarios/>
         
     </div>
     </>

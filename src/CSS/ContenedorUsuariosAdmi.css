@@ -4,7 +4,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    font-weight: bold;
 }
 
 .usuario, .usuarioProducto{
@@ -20,12 +21,12 @@
     margin :50px auto;
 }
 
-
 .usuario--li{
     background-color: white;
     width: 280px;
     height: 40px;
     border-radius: 8px;
+    margin-bottom: 10px;
 }
 .imputBuscar{
     width: 360px;
@@ -41,4 +42,10 @@
     right: 0;
 }
 
+
+.imagenAdmind, .perfilProductos{
+    width: 40px;
+    border-radius: 50%;
+    
+}
 
